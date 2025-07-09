@@ -1,0 +1,56 @@
+{
+    "configs": [
+        {
+            "name": "Claude Haiku v1",
+            "key": "claude-haiku-v-1-us-anthropic-claude-3-5-haiku-20241022-v-1-0",
+            "id": "us.anthropic.claude-3-5-haiku-20241022-v1:0",
+            "provider": "Bedrock:Anthropic",
+            "params": {
+                "temperature": 0.5,
+                "top_k": 250
+            },
+            "costPerInputToken": 8.000000000000001E-7,
+            "costPerOutputToken": 0.000004
+        },
+        {
+            "name": "Claude 4 Sonnet",
+            "key": "claude-4-sonnet-us-anthropic-claude-sonnet-4-20250514-v-1-0",
+            "id": "us.anthropic.claude-sonnet-4-20250514-v1:0",
+            "provider": "Bedrock:Anthropic",
+            "params": {
+                "max_tokens": 1000,
+                "temperature": 0.9
+            },
+            "costPerInputToken": 0.000003,
+            "costPerOutputToken": 0.000015
+        },
+        {
+            "name": "Claude 3.5 Sonnet v2",
+            "key": "claude-3-5-sonnet-v-2-us-anthropic-claude-3-5-sonnet-20241022-v-2-0",
+            "id": "us.anthropic.claude-3-5-sonnet-20241022-v2:0",
+            "provider": "Bedrock:Anthropic",
+            "params": {
+                "temperature": 0.5,
+                "top_k": 250
+            },
+            "costPerInputToken": 0.000003,
+            "costPerOutputToken": 0.00015
+        },
+        {
+            "name": "o4-mini-priced",
+            "key": "o4-mini-priced-o4-mini-2025-04-16",
+            "id": "o4-mini-2025-04-16",
+            "provider": "OpenAI",
+            "costPerInputToken": 0.0000011,
+            "costPerOutputToken": 0.0000044
+        },
+        {
+            "name": "gpt-4.1-priced",
+            "key": "gpt-4.1-priced-gpt-4.1-2025-04-14",
+            "id": "gpt-4.1-2025-04-14",
+            "provider": "OpenAI",
+            "costPerInputToken": 0.000002,
+            "costPerOutputToken": 0.000008
+        }
+    ]
+}
