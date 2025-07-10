@@ -1,4 +1,5 @@
 {
+    "ai_config_key": "toggle-bank-rag",
     "prompts": [
         {
             "key": "haiku-3",

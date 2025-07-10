@@ -1,4 +1,5 @@
 {
+    "ai_config_key": "llm-as-judge",
     "prompts": [
         {
             "key": "sonnet-4",

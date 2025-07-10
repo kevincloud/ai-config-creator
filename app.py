@@ -95,9 +95,10 @@ def create_variations(filename):
     try:
         with open(filename, "r") as prompts_file:
             data = json.load(prompts_file)
+            config_key = data["ai_config_key"]
             for prompt in data["prompts"]:
                 response = ai_configs.create_ai_config_variation(
-                    "toggle-bank-rag",
+                    config_key,
                     prompt["key"],
                     prompt["name"],
                     model=prompt["model"],
